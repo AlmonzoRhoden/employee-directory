@@ -9,9 +9,9 @@ class About extends Component{
   render(){
     return (
       <div>
-        <Hero backgroundImage="https://content.fortune.com/wp-content/uploads/2015/10/gettyimages-187921369-1.jpg">
+        <Hero backgroundImage="https://www.fickewirth.com/uploads/10133623_xl-laughing-business-people-small.jpg">
           <h1>Employee Directory</h1>
-          <h2>Learn more about your colleauges. </h2>
+          <h2>View, search, and learn about your coworkers</h2>
         </Hero>
         <Container style={{ marginTop: 20 }}>
           <Row>
@@ -22,7 +22,11 @@ class About extends Component{
           <Row>
             <Col size="md-12">
               <p>
-                This website can be used to look at non-sensitive information about your co-workers. Find out a bit about the department in a different state or country, or search for people to collaborate with. Click "Search" to begin searching for your next professional connection. 
+                A website used to look at non-sensitive information about your co-workers. 
+                Find out a bit about the department in a different state, country, or search for people to collaborate with. 
+                <br/>
+                <br/>
+                Click "Search" to begin searching for your next professional connection. 
               </p>
 
             </Col>

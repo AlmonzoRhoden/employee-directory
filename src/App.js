@@ -1,6 +1,6 @@
 // Including program components
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Search from "./pages/Search";
 import Navbar from "./components/Navbar";

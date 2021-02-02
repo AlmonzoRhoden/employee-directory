@@ -68,13 +68,6 @@ class Search extends Component {
 
     };
 
-    // //Search for just the name of the person
-    // handleFormSubmit = event => {
-    //     event.preventDefault();
-    //     //Filter just by that name  
-
-    // }
-
     render() {
         return (
             <div>
@@ -84,11 +77,11 @@ class Search extends Component {
                     breeds={this.state.names}
                 />
                 <Container style={{ minHeight: "80%" }}>
-                    <h1 className="text-center">Your employees:</h1>
+                    <h1 className="text-center">Company employees:</h1>
                     <Button cb={this.sortAlphabet} text={"Sort alphabetically"} name={"alphabet"} />
                     <Button cb={this.onlyUsa} text={"Show only USA"} name={"unitedStates"} />
-                    <Button cb={this.onlyGb} text={"Show only Great Britain"} name={"greatBritain"} />
-                    <Button cb={this.onlyFr} text={"Montre seulement les Français"} name={"laFrance"} />
+                    <Button cb={this.onlyGb} text={"Show only UK"} name={"greatBritain"} />
+                    <Button cb={this.onlyFr} text={"Show only FR"} name={"laFrance"} />
                 </Container>
                 <Table
                     alphebetized={this.state.alphebetized}
