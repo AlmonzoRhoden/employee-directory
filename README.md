@@ -13,7 +13,7 @@
 An individual project, an employee directory where you can view an entire directory at once, see non-sensitive data, and filter employees by name so that you can have quick access to their information.
 
 <h2>Deployed application</h2>
-https://almonzo-fitness-tracker.herokuapp.com/
+https://almonzorhoden.github.io/employee-directory/
 
 <h2>Installation</h2>
 Once the application is downloaded, run the following commands in the terminal at the root of your project folder: 
