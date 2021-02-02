@@ -1,21 +1,19 @@
 import React, { Component } from "react";
-import Hero from "../components/Hero";
+import Hero from "../components/Image";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-class About extends Component
-{
+class About extends Component{
 
   render(){
     return (
       <div>
-        {/* Image from website */}
-        <Hero backgroundImage="https://www.fickewirth.com/uploads/10133623_xl-laughing-business-people-small.jpg">
+        <Hero backgroundImage="https://content.fortune.com/wp-content/uploads/2015/10/gettyimages-187921369-1.jpg">
           <h1>Employee Directory</h1>
-          <h2>View, search, and learn more about your coworkers. </h2>
+          <h2>Learn more about your colleauges. </h2>
         </Hero>
-        <Container style={{ marginTop: 30 }}>
+        <Container style={{ marginTop: 20 }}>
           <Row>
             <Col size="md-12">
               <h1>Welcome To Employee Directory!</h1>
@@ -23,10 +21,8 @@ class About extends Component
           </Row>
           <Row>
             <Col size="md-12">
-              <br/>
               <p>
-                A website used to look at non-sensitive information about your co-workers. Find out more about the department in a different state, country, or search for people to collaborate with. <br/> <br/>
-                Click <em>"Search Employees"</em> at the top of the page to begin searching for your next professional connection. 
+                This website can be used to look at non-sensitive information about your co-workers. Find out a bit about the department in a different state or country, or search for people to collaborate with. Click "Search" to begin searching for your next professional connection. 
               </p>
 
             </Col>

@@ -1,9 +1,9 @@
 import React from "react";
 
 
-//Setting up data table heading data
-function Table(props) 
-{
+//Table should have a col for: last name, first name, location, and picture
+function Table(props) {
+
   return (
 
     <table className="table">

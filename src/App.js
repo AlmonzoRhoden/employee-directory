@@ -7,8 +7,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
-// Routing needed for the pages
-function App() {
+// Configuring page routes
+function App() 
+{
   return (
     <Router>
       <div>
