@@ -26,4 +26,4 @@ Afterwards, the application should open automatically in your web browser with t
     `http://localhost:3000/`
 
 ## Questions?
-Email me at almonzo.rhoden@gmail.com, so I can address any questions or concerns you may have regarding my application thank you.
+Email me at almonzo.rhoden@gmail.com, so I can address any questions or concerns you may have regarding my application thank you..
