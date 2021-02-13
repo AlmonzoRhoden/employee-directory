@@ -1,7 +1,7 @@
 import React from "react";
 
 
-//Table should have a col for: last name, first name, location, and picture
+//Table settings
 function Table(props) {
 
   return (
