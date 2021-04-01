@@ -1,4 +1,4 @@
-<h1 align = "center" > Employee-Directory </h1>
+<h1 align = "center" > Employee-Directory</h1>
 
 <h2>Preview of application<h2>
 
